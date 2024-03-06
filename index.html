@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Bulma</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barre de naviagtion fixée -->
+    <nav class="navbar is-fixed-top">
+        <div class="navbar-brand">
+            <a href="#" class="navbar-item">
+                <img src="ressources/html-coding.png" alt="logo">
+            </a>
+            <div class="navbar-burger burger" id="btnNav" data-target="menuContent">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="menuContent" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#accueil" class="navbar-item">
+                    Accueil
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a href="#me" class="navbar-item">
+                    À Propos
+                </a>
+                <a href="#real" class="navbar-item">
+                    Mes Réalisations
+                </a>
+                <a href="#contact" class="navbar-item">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Barre de naviagtion fixée -->
+
+    <!-- Section Page D'Accueil -->
+
+    <div class="columns is-desktop" id="accueil">
+        <div class="column is-6-desktop">
+
+            <section class="hero is-fullheight">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <h2 class="subtitle">Bonjour</h2>
+                        <h1 class="title is-1">Je suis Vic</h1>
+                        <h2 class="subtitle is-2">Un Dev Front-End !</h2>
+                        <button class="button is-primary is-rounded is-medium">Call Me !</button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="column is-6-desktop has-text-centered">
+            <img src="ressources/homeImg.jpg" alt="img accueil">
+        </div>
+
+    </div>
+
+    <!-- Section Page D'Accueil -->
+
+    <!-- Section à propos -->
+
+    <section class="container" id="me">
+        <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Qui suis-je ?</h2>
+
+        <figure class="image container is-128x128">
+            <img src="ressources/face.jpg" alt="" class="is-rounded is-centered">
+        </figure>
+        <br>
+        <div class="columns is-centered">
+            <p class="column is-6 has-text-justified">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi minus aliquid reiciendis facilis
+                ipsum voluptate cum animi impedit aspernatur voluptatum ut labore aut placeat repellendus dolor modi
+                aliquam eum nihil, laudantium eveniet doloribus saepe mollitia adipisci nostrum. Dignissimos aut aliquid
+                enim fuga nemo earum esse omnis ducimus ipsam sapiente, amet eos. Soluta possimus nulla placeat sapiente
+                animi quibusdam laudantium harum aperiam, mollitia odit. Ea, nobis eaque dolore, deleniti omnis totam
+                sequi odit assumenda repellendus quam reiciendis tempore expedita, vel illo rerum atque fugiat
+                dignissimos voluptas! Soluta, maxime corporis, accusamus quidem totam animi quaerat, pariatur natus
+                voluptatibus sunt mollitia quasi aperiam?
+            </p>
+        </div>
+    </section>
+    <br><br>
+    <!-- Section à propos -->
+
+    <!-- Mes Réalisations -->
+    <hr>
+
+    <section class="container" id="real">
+        <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Mes Réalisations</h2>
+
+        <div class="columns is-multiline is-centered is-mobile">
+
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/Sass.png" alt="Sass">
+                        </figure>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Vic de Spi</p>
+                                <p class="subtitle is-6">@VicdeSpi</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis?
+                            <a href="#">@Bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time date="10-02-2024">13:30pm - 10 février 2024</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/React.png" alt="Sass">
+                        </figure>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Vic de Spi</p>
+                                <p class="subtitle is-6">@VicdeSpi</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis?
+                            <a href="#">@Bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time date="10-02-2024">13:30pm - 10 février 2024</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/bulma-banner.png" alt="Sass">
+                        </figure>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Vic de Spi</p>
+                                <p class="subtitle is-6">@VicdeSpi</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis?
+                            <a href="#">@Bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time date="10-02-2024">13:30pm - 10 février 2024</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/node.png" alt="Sass">
+                        </figure>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Vic de Spi</p>
+                                <p class="subtitle is-6">@VicdeSpi</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis?
+                            <a href="#">@Bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time date="10-02-2024">13:30pm - 10 février 2024</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/JavaScript.png" alt="Sass">
+                        </figure>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Vic de Spi</p>
+                                <p class="subtitle is-6">@VicdeSpi</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis?
+                            <a href="#">@Bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time date="10-02-2024">13:30pm - 10 février 2024</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="ressources/AngularJS_logo.svg.png" alt="Sass">
+                        </figure>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">Vic de Spi</p>
+                                <p class="subtitle is-6">@VicdeSpi</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, nobis?
+                            <a href="#">@Bulmaio</a>
+                            <a href="#">#css</a>
+                            <a href="#">#responsive</a>
+                            <br>
+                            <time date="10-02-2024">13:30pm - 10 février 2024</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <br><br>
+    <!-- Mes Réalisations -->
+
+    <!-- Contact -->
+    <hr>
+    <br><br>
+
+    <section class="container" id="contact">
+        <h2 class="title is-1 has-text-centered" style="font-family: kaushan script;">Contactez-moi</h2>
+
+        <div class="field">
+            <label class="label">Nom</label>
+            <div class="control">
+                <input type="text" class="input" placeholder="Nom">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Prénom</label>
+            <div class="control has-icons-left">
+                <input type="text" class="input" placeholder="Prénom">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">email</label>
+            <div class="control has-icons-left">
+                <input type="email" class="input" placeholder="Email" value="Hello@">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Votre message..."></textarea>
+            </div>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Envoyer !</button>
+            </div>
+            <div class="control">
+              <button class="button is-text">Remettre à Zéro</button>
+            </div>
+          </div>
+    </section>
+    <br><br>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            Tout droits réservés. License MIT.
+          </p>
+        </div>
+</footer>
+    <!-- Footer -->
+
+
+
+
+    <script>
+        var btn = document.getElementById('btnNav');
+        var content = document.getElementById('menuContent');
+
+        btn.addEventListener('click', function () {
+            content.classList.toggle('is-active');
+        })
+    </script>
+</body>
+
+</html>
